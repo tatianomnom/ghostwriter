@@ -17,8 +17,13 @@
     <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/nprogress.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:100,300,400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="{{asset "css/monokai_sublime.css"}}" />
+    <script src="{{asset "js/highlight.pack.js"}}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -64,7 +69,7 @@
                 <a class="button-square button-jump-top js-jump-top" href="#"><i class="fa fa-angle-up"></i></a>
             </div>
 
-            <p class="footer-copyright">&copy; {{date format="YYYY"}} / Published with <a href="https://ghost.org">Ghost</a> / <a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></p>
+            <p class="footer-copyright">&copy; {{date format="YYYY"}} / Published with <a href="https://ghost.org">Ghost</a> / Theme based on <a href="https://github.com/roryg/ghostwriter">Ghostwriter</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></p>
         </div>
     </footer>
 
