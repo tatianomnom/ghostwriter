@@ -124,12 +124,12 @@ table {
   height: auto;
   min-height: 100%;
   /* This must be the same as the height of the footer */
-  margin-bottom: -265px; }
+  margin-bottom: -165px; }
   #wrapper:after {
     content: "";
     display: block;
     /* This must be the same as the height of the footer */
-    height: 265px; }
+    height: 165px; }
 
 .button {
   background: #424242;
@@ -412,7 +412,7 @@ table {
 .footer {
   background: #424242;
   color: #D3D3D3;
-  height: 265px;
+  height: 165px;
   margin-top: 95px;
   overflow: auto; }
   .footer .site-title-wrapper {
