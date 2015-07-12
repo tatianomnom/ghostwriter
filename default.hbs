@@ -15,13 +15,12 @@
 
     {{! Styles }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset "css/nprogress.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:100,300,400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="{{asset "css/monokai_sublime.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/androidstudio.css"}}" />
     <script src="{{asset "js/highlight.pack.js"}}"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
@@ -44,8 +43,7 @@
                 </div>
 
                 <ul class="site-nav">
-                    <li class="site-nav-item"><a class="js-ajax-link" title="{{@blog.title}}" href="{{@blog.url}}">Latest Post</a></li>
-                    <li class="site-nav-item"><a class="js-ajax-link js-show-index" title="{{@blog.title}}" href="{{@blog.url}}">Browse Posts</a></li>
+                    <li class="site-nav-item"><a class="js-ajax-link js-show-index" title="{{@blog.title}}" href="{{@blog.url}}">Blog</a></li>
 
                     {{navigation}}
 
@@ -63,12 +61,6 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="site-title-wrapper">
-                <h1 class="site-title"><a class="js-ajax-link" title="{{@blog.title}}" href="{{@blog.url}}">{{@blog.title}}</a></h1>
-
-                <a class="button-square button-jump-top js-jump-top" href="#"><i class="fa fa-angle-up"></i></a>
-            </div>
-
             <p class="footer-copyright">&copy; {{date format="YYYY"}} / Published with <a href="https://ghost.org">Ghost</a> / Theme based on <a href="https://github.com/roryg/ghostwriter">Ghostwriter</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></p>
         </div>
     </footer>
@@ -76,8 +68,6 @@
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
 
-    <script type="text/javascript" src="{{asset "js/jquery.history.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/nprogress.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/scripts.js"}}"></script>
 
